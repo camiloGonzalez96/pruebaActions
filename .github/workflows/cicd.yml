@@ -1,0 +1,15 @@
+on:
+  push:
+name: action
+jobs:
+  hello-world:
+    nme: un job para saludar
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step hola mundo
+        id: hello
+        uses: camilogonzalez96/pruebaActions@v1
+        with:
+          who-to-greet: "pipiolo"
+      - name: Usar el output
+        run: echo "La fecha fue ${{ steps.hello.outputs.time }}"
