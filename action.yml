@@ -2,12 +2,12 @@ name: 'Hola mundo'
 description: 'saludar a alguien y guardar la fecha'
 inputs:
   who-to-greet: #id of the input
-  description: 'a quiens saludar'
-  requiered: true
-  default: 'Mundo'
+    description: 'a quiens saludar'
+    requiered: true
+    default: 'Mundo'
 outputs:
   time: #id of the output
-  description: 'la fecha en la que nos conocimos'
+    description: 'la fecha en la que nos conocimos'
 runs:
   using: 'docker'
   image: 'Dockerfile'
