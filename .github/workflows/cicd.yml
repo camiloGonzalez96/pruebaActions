@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Step hola mundo
         id: hello
-        uses: camilogonzalez96/pruebaActions@v1
+        uses: camiloGonzalez96/pruebaActions@v1
         with:
           who-to-greet: "pipiolo"
       - name: Usar el output

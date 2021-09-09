@@ -1,8 +1,8 @@
 name: 'Hola mundo'
 description: 'saludar a alguien y guardar la fecha'
 inputs:
-  who-to-greet: #id of the input
-    description: 'a quiens saludar'
+  who-to-greet: #id of input
+    description: 'A quiens saludar'
     requiered: true
     default: 'Mundo'
 outputs:
